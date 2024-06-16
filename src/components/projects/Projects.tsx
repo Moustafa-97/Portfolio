@@ -57,7 +57,7 @@ export default function Projects() {
   const itemData: itemData = [
     {
       img: `${AMITFinal}`,
-      title: "MovieWorlda delivery web application",
+      title: "Delivery web application",
       author: "@AMIT final project",
       link: "https://amit-final-project.onrender.com/",
       details: [

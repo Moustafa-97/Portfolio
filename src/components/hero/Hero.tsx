@@ -49,10 +49,10 @@ export default function Hero() {
           fontSize={{ md: 20, xs: 16 }}
           textAlign={{ md: "start", xs: "center" }}
         >
-          "Amidst the rigidity of routine, I forged a new path, embracing the
-          artistry of code to sculpt digital landscapes. From the ashes of
-          monotony, I rose as a Frontend Developer, weaving innovation into the
-          fabric of the web, one line of code at a time."
+          "In the midst of a strict routine, I discovered a new path. I embraced
+          the creativity of coding to design digital landscapes. Breaking free
+          from monotony, I became a Web Developer, adding innovation to the web,
+          one line of code at a time."
         </Typography>
       </Box>
     </section>
