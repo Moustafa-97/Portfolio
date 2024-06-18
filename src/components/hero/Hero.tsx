@@ -49,10 +49,9 @@ export default function Hero() {
           fontSize={{ md: 20, xs: 16 }}
           textAlign={{ md: "start", xs: "center" }}
         >
-          "In the midst of a strict routine, I discovered a new path. I embraced
-          the creativity of coding to design digital landscapes. Breaking free
-          from monotony, I became a Web Developer, adding innovation to the web,
-          one line of code at a time."
+          "Your work is going to fill a large part of your life, and the only
+          way to be truly satisfied is to do what you believe is great work. And
+          the only way to do great work is to love what you do." - Steve Jobs
         </Typography>
       </Box>
     </section>

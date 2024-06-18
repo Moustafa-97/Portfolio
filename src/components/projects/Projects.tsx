@@ -22,12 +22,7 @@ interface itemData {
   title: string;
   author: string;
   link: string;
-  details: [string];
-}
-interface RootState {
-  theme: {
-    mode: string;
-  };
+  details: string[];
 }
 
 const style = {
@@ -54,7 +49,7 @@ export default function Projects() {
     AOS.refresh();
   }, []);
 
-  const itemData: itemData = [
+  const itemData: itemData[] = [
     {
       img: `${AMITFinal}`,
       title: "Delivery web application",

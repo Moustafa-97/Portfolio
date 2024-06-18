@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import BoxLayout from "../../Layout/BoxLayout";
-import { useSelector } from "react-redux";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
@@ -18,11 +17,6 @@ import Amit from "../imgs/images.png";
 import Feau from "../imgs/2016_2_5_11_51_30_591.jpg";
 import TypoLayHeader from "../../Layout/TypoLayHeader";
 
-interface RootState {
-  theme: {
-    mode: string;
-  };
-}
 
 const style = {
   position: "absolute",
@@ -47,7 +41,6 @@ export default function Education() {
     AOS.init();
     AOS.refresh();
   }, []);
-  const mode: string = useSelector((state: RootState) => state.theme.mode);
 
   const itemData = [
     {

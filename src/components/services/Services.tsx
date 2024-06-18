@@ -1,11 +1,11 @@
 import { Box, Typography } from "@mui/material";
 import { ReactNode, useEffect } from "react";
 import BoxLayout from "../../Layout/BoxLayout";
-import { FaDesktop, FaServer, FaServicestack, FaUikit } from "react-icons/fa";
+import { FaDesktop, FaServer } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TypoLayHeader from "../../Layout/TypoLayHeader";
-import { MdLayers, MdOutlineDeveloperBoard } from "react-icons/md";
+import { MdLayers} from "react-icons/md";
 import { SiMaterialdesign } from "react-icons/si";
 
 interface Service {

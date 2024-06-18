@@ -102,10 +102,7 @@ export default function Header(props: Props) {
     isDarkTheme ? (
       <LightModeIcon sx={{ cursor: "pointer" }} onClick={() => handleMode()} />
     ) : (
-      <DarkModeIcon
-        sx={{ cursor: "pointer" }}
-        onClick={() => handleMode()}
-      />
+      <DarkModeIcon sx={{ cursor: "pointer" }} onClick={() => handleMode()} />
     ),
     <LinkedIn
       onClick={() =>

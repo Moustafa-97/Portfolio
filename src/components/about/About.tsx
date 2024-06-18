@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
-import { Box, Typography } from "@mui/material";
+import { useEffect } from "react";
+import { Typography } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useSelector } from "react-redux";
 import BoxLayout from "../../Layout/BoxLayout";
 
-interface RootState {
-  theme: {
-    mode: string;
-  };
-}
 
 export default function About() {
   useEffect(() => {
@@ -17,11 +11,11 @@ export default function About() {
     AOS.refresh();
   }, []);
 
-  const mode: string = useSelector((state: RootState) => state.theme.mode);
 
   return (
     <>
       <BoxLayout>
+        <>
         <Typography
           component={"span"}
           variant="body1"
@@ -78,7 +72,7 @@ export default function About() {
           m={"auto"}
           component={"span"}
           variant="body1"
-          color={mode === "dark" ? "red" : "blue"}
+          color={"red"}
           fontWeight={900}
           letterSpacing={{ md: 10, xs: 1 }}
           fontSize={{ md: 50, xs: 16 }}
@@ -99,6 +93,7 @@ export default function About() {
           user-friendly applications using modern frameworks such as React and
           Node.js.
         </Typography>
+        </>
       </BoxLayout>
     </>
   );

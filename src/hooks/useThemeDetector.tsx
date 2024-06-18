@@ -14,7 +14,7 @@ const useThemeDetector = () => {
     return () => mq.removeEventListener("change", handleThemeChange);
   }, []);
 
-  const toggleTheme = () => {
+  const toggleTheme: boolean | (() => void) = () => {
     setIsDarkTheme(!isDarkTheme);
   };
 
