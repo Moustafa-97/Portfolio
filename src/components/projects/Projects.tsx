@@ -85,7 +85,7 @@ export default function Projects() {
       img: `${WeatherApp}`,
       title: "Weather application",
       author: "@Campus Coders",
-      link: "https://eng.alexu.edu.eg/index.php/en",
+      link: "https://campus-coder-project.vercel.app",
       details: [
         "(Technical skills: React, Redux, Redux toolkit, CSS.)",
         "Managed a web application to track weather using openWeatherMap API.",
