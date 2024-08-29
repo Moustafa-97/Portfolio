@@ -27,7 +27,7 @@ export default function Skill() {
     <>
       <BoxLayout>
         <>
-          <TypoLayHeader>SKILLS</TypoLayHeader>
+          <TypoLayHeader>Technical SKILLS</TypoLayHeader>
           <Typography
             component={"span"}
             variant="body1"

@@ -22,7 +22,7 @@ interface itemData {
   title: string;
   author: string;
   link: string;
-  details: string[];
+  details: string[] | string | React.SetStateAction<never[]> |null;
 }
 
 const style = {

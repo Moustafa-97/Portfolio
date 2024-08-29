@@ -12,8 +12,8 @@ export default function HomePage() {
     <>
       <Hero />
       <About />
-      <Skill />
       <Education />
+      <Skill />
       <Projects />
       <Services />
       <Contact />
